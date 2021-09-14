@@ -1,0 +1,94 @@
+#calcBody {
+  background-color: #331832;
+  width: 400px;
+  height: 500px;
+  padding: 5px;
+  display: grid;
+  grid-template: 2fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr
+}
+.numBTN {
+  background-color: #a21645;
+  width: 90%;
+  height: 90%;
+  font-size: 2rem;
+  color: #c6d8d3;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+#display {
+  padding: 8px;
+  font-size: 4rem;
+  color: #c6d8d3;
+  background-color: #a21645;
+  border-radius: 35px;
+  text-align: right;
+  grid-area: 1 / 1 / span 1 / span 4;
+  margin: 4px;
+}
+.function {
+  background-color: #f0544f;
+  font-size: 3rem;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 3px;
+}
+#equals {
+  background-color: #432c9c;
+  color: #c6d8d3;
+  width: 90px;
+  border-radius: 30px;
+  
+}
+#functionList {
+  display: flex;
+  margin: auto;
+  align-content: center;
+  grid-area: 2 / 1 / span 1 / span 4;
+}
+#padOfNumbers {
+  grid-area: 3 / 1 / span 3 / span 2;
+  
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr
+}
+#clear {
+  width: 90%;
+  height: 90%;
+  font-size: 2rem;
+  background-color: #c6d8d3;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  align-self: center;
+  justify-self: center;
+}
+#decimal {
+  width: 90%;
+  height: 90%;
+  font-size: 2rem;
+  background-color: #c6d8d3;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  grid-area: 4 / 3 / span 1 / span 1; 
+  align-self: center;
+  justify-self: center;
+}
+#zero {
+  width: 90%;
+  height: 90%;
+  font-size: 2rem;
+  background-color: #c6d8d3;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  grid-area: 5 / 3 / span 1 / span 1;
+  align-self: center;
+  justify-self: center;
+}
