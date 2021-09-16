@@ -4,7 +4,7 @@
   height: 500px;
   padding: 5px;
   display: grid;
-  grid-template: 2fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr
+  grid-template: 2fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 .numBTN {
   background-color: #a21645;
@@ -20,6 +20,7 @@
 }
 #display {
   padding: 8px;
+  min-height: 2em;
   font-size: 4rem;
   color: #c6d8d3;
   background-color: #a21645;
@@ -43,7 +44,6 @@
   color: #c6d8d3;
   width: 90px;
   border-radius: 30px;
-  
 }
 #functionList {
   display: flex;
@@ -53,9 +53,9 @@
 }
 #padOfNumbers {
   grid-area: 3 / 1 / span 3 / span 2;
-  
+
   display: grid;
-  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
 }
 #clear {
   width: 90%;
@@ -76,7 +76,7 @@
   text-align: center;
   border-radius: 3px;
   border: 1px solid black;
-  grid-area: 4 / 3 / span 1 / span 1; 
+  grid-area: 4 / 3 / span 1 / span 1;
   align-self: center;
   justify-self: center;
 }
